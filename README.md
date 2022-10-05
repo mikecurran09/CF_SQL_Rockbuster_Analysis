@@ -12,6 +12,8 @@ PostgreSQL's open-source course data is accessible [here](https://www.postgresql
 For this project, the following tools were used:
 * PostgreSQL - for data analysis
 * Tableau - for data visualizations
+* DBVisualizer - for ERD extraction
 
 ## Resources
+* [CF Achievement Project Brief](https://images.careerfoundry.com/public/courses/data-immersion/A3/A3_Data_Project_Brief%20.pdf)
 * [A visualization in Tableau](https://public.tableau.com/views/RockbusterProject_16598863414530/Ratings?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
