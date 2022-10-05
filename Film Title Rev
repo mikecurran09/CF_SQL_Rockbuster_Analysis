@@ -1,0 +1,38 @@
+--Query to find the top 10 film titles by revenue
+
+SELECT film.film_id,
+    film.title AS film_name,
+    category.name AS category,
+    film.rating AS rating,
+    SUM (payment.amount) AS total_revenue
+FROM category
+INNER JOIN film_category USING (category_id)
+INNER JOIN film USING (film_id)
+INNER JOIN inventory USING (film_id)
+INNER JOIN rental USING (inventory_id)
+INNER JOIN payment USING (rental_id)
+GROUP BY film.film_id,
+    film.title,
+    category.name
+ORDER BY SUM (payment.amount) DESC
+LIMIT 10;
+
+
+--Query to find the bottom 10 film titles by revenue
+
+SELECT film.film_id,
+    film.title AS film_name,
+    category.name AS category,
+    film.rating AS rating,
+    SUM (payment.amount) AS total_revenue
+FROM category
+INNER JOIN film_category USING (category_id)
+INNER JOIN film USING (film_id)
+INNER JOIN inventory USING (film_id)
+INNER JOIN rental USING (inventory_id)
+INNER JOIN payment USING (rental_id)
+GROUP BY film.film_id,
+    film.title,
+    category.name
+ORDER BY SUM (payment.amount)
+LIMIT 10;
