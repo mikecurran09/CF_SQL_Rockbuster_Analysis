@@ -1,0 +1,13 @@
+--Query to find the customer count and total revenue by country
+
+SELECT country.country,
+    COUNT (customer.customer_id) AS count_customers,
+    SUM (payment.amount) AS total_rev
+FROM country
+INNER JOIN city USING (country_id)
+INNER JOIN address USING (city_id)
+INNER JOIN customer USING (address_id)
+INNER JOIN rental USING (customer_id)
+INNER JOIN payment USING (rental_id)
+GROUP BY country.country
+ORDER BY SUM (payment.amount) DESC;
