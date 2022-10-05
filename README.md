@@ -16,4 +16,4 @@ For this project, the following tools were used:
 
 ## Resources
 * [CF Achievement Project Brief](https://images.careerfoundry.com/public/courses/data-immersion/A3/A3_Data_Project_Brief%20.pdf)
-* [A visualization in Tableau](https://public.tableau.com/views/RockbusterProject_16598863414530/Ratings?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+* [Tableau Visualizations](https://public.tableau.com/views/RockbusterProject_16598863414530/Ratings?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
