@@ -1,0 +1,13 @@
+--Query to find basic company statistics
+
+SELECT COUNT (film_id) AS count_of_titles,
+    AVG (rental_rate) AS avg_rental_cost,
+    MIN (rental_rate) AS min_rental_cost,
+    MAX (rental_rate) AS max_rental_cost,
+    AVG (rental_duration) AS avg_rental_length,
+    MIN (rental_duration) AS min_rental_length,
+    MAX (rental_duration) AS max_rental_length,
+    AVG (replacement_cost) AS avg_replacement_cost,
+    MIN (replacement_cost) AS min_replacement_cost,
+    MAX (replacement_cost) AS max_replacement_cost
+FROM film;
