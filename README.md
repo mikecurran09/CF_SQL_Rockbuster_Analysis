@@ -8,5 +8,10 @@ Rockbuster is an imaginary DVD rental business that is competing in the online s
 ## Data
 PostgreSQL's open-source course data is accessible [here](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
 
-## Results
-With most clients in India & China, this area was chosen to launch online movie renting. There was no apparent pattern in the movie portfolio's profitability, therefore it was advised to utilize the best-performing licenses online.
+## Tools
+For this project, the following tools were used:
+* PostgreSQL - for data analysis
+* Tableau - for data visualizations
+
+## Resources
+* [A visualization in Tableau](https://public.tableau.com/views/RockbusterProject_16598863414530/Ratings?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
