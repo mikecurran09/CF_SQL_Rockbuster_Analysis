@@ -7,3 +7,6 @@ Rockbuster is an imaginary DVD rental business that is competing in the online s
 
 ## Data
 PostgreSQL's open-source course data is accessible [here](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip).
+
+## Results
+With most clients in Asia, this area was chosen to launch online movie renting. There was no apparent pattern in the movie portfolio's profitability, therefore it was advised to utilize the best-performing licenses online.
