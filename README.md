@@ -1,4 +1,4 @@
-# CF_SQL_Rockbuster_Analysis
+# Rockbuster_Analysis
 
 SQL analysis of the PostgreSQL Sample Database as part of the Data Analysis course at Careerfoundry.
 
